@@ -1,5 +1,34 @@
 {
   "dependencies": {
-    "create-react-app": "^5.0.1"
-  }
+    "create-react-app": "^5.0.1",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.1",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "socket.io": "^4.5.0",
+    "unique-names-generator": "^4.7.1"
+  },
+  "name": "react-arcanopoly",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "frontend-install": "npm install --prefix frontend",
+    "frontend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebjo/react-arcanopoly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebjo/react-arcanopoly/issues"
+  },
+  "homepage": "https://github.com/calebjo/react-arcanopoly#readme",
+  "description": ""
 }
