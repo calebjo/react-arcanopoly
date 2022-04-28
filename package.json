@@ -11,7 +11,10 @@
   "name": "react-arcanopoly",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sass": "^1.51.0"
+  },
   "scripts": {
     "start": "node app.js",
     "server": "nodemon app.js",
